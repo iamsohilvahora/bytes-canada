@@ -1,0 +1,283 @@
+
+.home-case-study-outbox {
+  padding: 8vw 0px 5vw 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-case-study .swiper-slide {
+  opacity: 0 !important;
+  height: auto !important;
+}
+
+.home-case-study .swiper-slide.swiper-slide-visible {
+  opacity: 1 !important;
+  height: auto !important;
+}
+
+.swiper-wrapper {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.home-case-study-outbox.case-design1 {
+  background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio1.webp");
+}
+
+.home-case-study-outbox.case-design2 {
+  background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio2.webp");
+}
+
+.home-case-study-outbox.case-design3 {
+  background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio3.webp");
+}
+
+.home-case-study-outbox.case-design4 {
+  background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio4.webp");
+}
+
+.home-case-study-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85vw;
+  max-width: 1632px;
+  padding: 0px 16px;
+  margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-case-study-box-left {
+  width: 41.5vw;
+  max-width: 797px;
+}
+
+.home-case-study-box-left span {
+  color: #393939;
+  font-family: Aeonik-Bold;
+  font-size: 20px;
+  line-height: 122%;
+}
+
+.home-case-study-box-left h2 {
+  color: #393939;
+  margin-bottom: 32px;
+}
+
+.home-case-study-outbox.case-design1 .home-case-study-box-left span {
+  color: #393939;
+}
+
+.home-case-study-outbox.case-design2 .home-case-study-box-left span {
+  color: #d56c4a;
+}
+
+.home-case-study-outbox.case-design3 .home-case-study-box-left span {
+  color: #da3333;
+}
+
+.home-case-study-outbox.case-design4 .home-case-study-box-left span {
+  color: #da3333;
+}
+
+.home-case-study-box-left p {
+  color: #393939;
+  max-width: 85%;
+}
+
+.home-case-study-box-left i {
+  font-style: normal;
+}
+
+.home-case-study-box-right {
+  width: 29.85vw;
+  max-width: 605px;
+}
+
+.home-case-study-box-right-banner img {
+  width: 100%;
+  height: auto;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.home-case-study-box-right-shape {
+  position: relative;
+}
+
+.home-case-study-box-right-shape span::before {
+  content: "";
+  height: 101px;
+  width: 101px;
+  background-size: 17px;
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  right: -52px;
+  bottom: -5px;
+  z-index: 2;
+  background-image: url("/app/themes/bytes-canada/assets/images/webapp-CA-wave.webp");
+}
+
+.home-case-study-box-right-shape img {
+  position: absolute;
+  right: -52px;
+  bottom: -5px;
+  -webkit-animation: Rotateinfy 7s linear infinite;
+  animation: Rotateinfy 7s linear infinite;
+}
+
+@-webkit-keyframes Rotateinfy {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes Rotateinfy {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .home-case-study {
+    margin: 30px 0px;
+  }
+
+  .home-case-study-outbox {
+    padding: 4vw 0px 5vw 0px;
+  }
+
+  .home-case-study-box-right-shape img {
+    max-width: 65px;
+    right: -35px;
+    bottom: -25px;
+    height: auto;
+  }
+
+  .home-case-study-box-right-shape span::before {
+    max-width: 65px;
+    right: -35px;
+    bottom: -25px;
+    height: 65px;
+    background-size: 12px;
+  }
+
+  .home-case-study-box-left span {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-case-study {
+    margin: 20px 0px;
+  }
+
+  .home-case-study-outbox {
+    padding-top: 40px;
+    min-height: 600px;
+    background-size: 100% 100%;
+  }
+
+  .home-case-study-outbox.case-design1 {
+    background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio1-mobile.webp");
+  }
+
+  .home-case-study-outbox.case-design2 {
+    background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio2-mobile.webp");
+  }
+
+  .home-case-study-outbox.case-design3 {
+    background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio3-mobile.webp");
+  }
+
+  .home-case-study-outbox.case-design4 {
+    background-image: url("/app/themes/bytes-canada/assets/images/webapp-Portfolio4-mobile.webp");
+  }
+
+  .home-case-study-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .home-case-study-box-left {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .home-case-study-box-left span {
+    font-size: 14px;
+    color: #da3333;
+  }
+
+  .home-case-study-box-left h2 {
+    font-size: 24px;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .home-case-study-box-left p {
+    max-width: 95%;
+  }
+
+  .home-case-study-box-right {
+    width: 70%;
+    max-width: 400px;
+    margin: 0px auto;
+  }
+
+  .home-case-study-box-right-shape img {
+    max-width: 52px;
+    right: -20px;
+    bottom: -9px;
+    height: auto;
+  }
+
+  .home-case-study-box-right-shape span::before {
+    max-width: 52px;
+    right: -20px;
+    bottom: -9px;
+    background-size: 9px;
+    height: 52px;
+  }
+}

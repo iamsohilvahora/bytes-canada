@@ -1,0 +1,232 @@
+.service-inner-crafting-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+  flex-flow: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.service-inner-crafting-left {
+  width: 49.583vw;
+}
+
+.service-inner-crafting-left .h3 {
+  color: #f3f3f3;
+  margin-bottom: 1.25vw;
+}
+
+.service-inner-crafting-left p {
+  color: #dddddd;
+  margin-bottom: 1.25vw;
+}
+
+.service-inner-crafting-right {
+  width: 29.219vw;
+}
+
+.service-inner-crafting-list {
+  text-align: left;
+  border-bottom: 1px solid #868686;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  gap: 0.833vw;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.service-inner-crafting-list .service-inner-crafting-list-number {
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 160%;
+  color: #868686;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  bottom: -0.781vw;
+  margin-right: 0.729vw;
+}
+
+.service-inner-crafting-list:hover .service-inner-crafting-list-number {
+  bottom: 2px;
+}
+
+.service-inner-crafting-list .service-inner-crafting-list-link {
+  color: #868686;
+  font-family: "Aeonik";
+  margin-bottom: 1.094vw;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 100%;
+}
+
+.service-inner-crafting-list:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.service-inner-crafting-list:hover .service-inner-crafting-list-number {
+  color: #ffffff;
+}
+
+.service-inner-crafting-list:hover .service-inner-crafting-list-link {
+  color: #ffffff;
+}
+
+.service-inner-crafting-bottom {
+  margin-top: 3.75vw;
+}
+
+.service-inner-crafting-bottom-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.344vw;
+  flex-flow: wrap;
+}
+
+.service-inner-crafting-bottom-box {
+  width: 26.146vw;
+  padding: 1.667vw;
+  border-radius: 0.417vw;
+}
+
+.service-inner-crafting-bottom-box .h7 {
+  color: #f3f3f3;
+}
+
+.service-inner-crafting-bottom-box:nth-child(3n + 1) {
+  background-image: url("/app/themes/bytes-canada/assets/images/service-inner-crafting-frame1.webp");
+  background-size: 100% 100%;
+}
+.service-inner-crafting-bottom-box:nth-child(3n + 2) {
+  background-image: url("/app/themes/bytes-canada/assets/images/service-inner-crafting-frame2.webp");
+  background-size: 100% 100%;
+}
+.service-inner-crafting-bottom-box:nth-child(3n + 3) {
+  background-image: url("/app/themes/bytes-canada/assets/images/service-inner-crafting-frame3.webp");
+  background-size: 100% 100%;
+}
+.solution-inner-title-left-shade1 {
+  background: -o-linear-gradient(359.1deg, #e1b849 0.28%, #d5ba89 102.42%);
+  background: linear-gradient(90.9deg, #e1b849 0.28%, #d5ba89 102.42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: none;
+}
+
+@media screen and (min-width: 1921px) {
+  .service-inner-crafting-left {
+    width: 952px;
+  }
+
+  .service-inner-crafting-list .service-inner-crafting-list-link {
+    margin-bottom: 21px;
+  }
+
+  .service-inner-crafting-left .h3 {
+    margin-bottom: 24px;
+  }
+
+  .service-inner-crafting-left p {
+    margin-bottom: 24px;
+  }
+
+  .service-inner-crafting-right {
+    width: 561px;
+  }
+
+  .service-inner-crafting-list {
+    gap: 16px;
+  }
+
+  .service-inner-crafting-list .service-inner-crafting-list-number {
+    font-size: 12px;
+    bottom: -15px;
+    margin-right: 14px;
+  }
+
+  .service-inner-crafting-list .service-inner-crafting-list-link {
+    margin-bottom: 16px;
+  }
+
+  .service-inner-crafting-bottom {
+    margin-top: 72px;
+  }
+
+  .service-inner-crafting-bottom-boxes {
+    gap: 45px;
+  }
+
+  .service-inner-crafting-bottom-box {
+    width: 502px;
+    padding: 32px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .service-inner-crafting-bottom-boxes{
+    gap: 2.244vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service-inner-crafting-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+
+  .service-inner-crafting-left {
+    width: 100%;
+  }
+
+  .service-inner-crafting-right {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .service-inner-crafting-bottom {
+    margin-top: 32px;
+  }
+
+  .service-inner-crafting-bottom-boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    gap: 16px;
+  }
+
+  .service-inner-crafting-bottom-box {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .service-inner-crafting-list .service-inner-crafting-list-number {
+    font-size: 14px;
+    bottom: -10px;
+    margin-right: 8px;
+  }
+  .service-inner-crafting-list{
+    margin-bottom: 13px;
+  }
+  .service-inner-crafting-list .service-inner-crafting-list-link{
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+}

@@ -1,0 +1,141 @@
+
+.about-company-award-bg {
+  background: #f3f3f3;
+  padding: 4.688vw 0px;
+  background-image: url("/app/themes/bytes-canada/assets/images/Awards-bg.webp");
+  background-size: 100% 100%;
+}
+.about-company-award-top .h4 {
+  color: #393939;
+  margin-bottom: 2.5vw;
+}
+.about-company-award-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about-company-award-bottom-left {
+  width: 47.344vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  gap: 2.448vw 3.385vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about-company-award-bottom-left img {
+  width: calc(33.3% - 3vw);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.about-company-award-bottom-right {
+  width: 26.146vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  gap: 3.021vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about-company-award-bottom-right img {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+@media screen and (min-width: 1921px) {
+  .about-company-award-bg {
+    padding: 90px 0px;
+  }
+  .about-company-award-top .h4 {
+    margin-bottom: 48px;
+  }
+  .about-company-award-bottom-left {
+    width: 909px;
+    gap: 47px 65px;
+  }
+  .about-company-award-bottom-right {
+    width: 502px;
+    gap: 58px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about-company-award-bottom-left {
+    gap: 5px;
+    width: 60%;
+  }
+  .about-company-award-bottom-left img {
+    width: 29%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .about-company-award-bottom-right {
+    gap: 35px;
+  }
+  .about-company-award-bottom-right img {
+    width: 80%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-company-award-top .h4 {
+    margin-bottom: 32px;
+  }
+  .about-company-award-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .about-company-award-bottom-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .about-company-award-bottom-left img {
+    width: calc(33.3% - 10px);
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .about-company-award-bottom-right {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    margin-top: 32px;
+  }
+  .about-company-award-bottom-right img {
+    width: 40%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}

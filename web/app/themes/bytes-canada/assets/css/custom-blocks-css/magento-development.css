@@ -1,0 +1,105 @@
+
+.magento-services {
+    background: #091d2d;
+    padding: 4.688vw 0px;
+    background-image: url("/app/themes/bytes-canada/assets/images/magento-bg.webp");
+    background-size: 100% 100%;
+}
+.magento-services .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.magento-services-left {
+    width: 35.885vw;
+}
+.magento-services-left img {
+    height: auto;
+    width: 100%;
+}
+.magento-services-right {
+    width: 40.99vw;
+}
+.magento-services-title {
+    color: #f3f3f3;
+    margin-bottom: 1.25vw;
+}
+.magento-services-data {
+    color: #dddddd;
+}
+.magento-services-right .magento-services-right-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0px 3.125vw;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+}
+.magento-services-list {
+    width: calc(50% - 1.563vw);
+    margin-bottom: 1.667vw;
+}
+.magento-services-list-link {
+    font-size: 0.833vw;
+    line-height: 122%;
+    color: #f3f3f3;
+    font-family: "Aeonik-Bold";
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 1.25vw;
+}
+@media screen and (min-width: 1921px) {
+    .magento-services-left {
+        width: 689px;
+    }
+    .magento-services-right {
+        width: 789px;
+    }
+    .magento-services-list {
+        margin-bottom: 32px;
+    }
+    .magento-services-list-link {
+        padding-bottom: 24px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .magento-services-right .magento-services-right-ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        gap: 0;
+    }
+    .magento-services-list {
+        width: 100%;
+    }
+    .magento-services-list-link {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .magento-services .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        gap: 32px;
+    }
+    .magento-services-left {
+        width: 100%;
+    }
+    .magento-services-right {
+        width: 100%;
+    }
+    .magento-services-list {
+        width: 100%;
+    }
+    .magento-services-list-link {
+        font-size: 14px;
+    }
+}

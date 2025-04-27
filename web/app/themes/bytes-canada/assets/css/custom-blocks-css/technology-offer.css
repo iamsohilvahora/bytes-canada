@@ -1,0 +1,64 @@
+
+.technology-inner-benefits-bg {
+    background-image: url("/app/themes/bytes-canada/assets/images/technology-inner-bg.webp");
+    background-size: 100% 100%;
+}
+
+.technology-inner-benefits-top .h3 {
+    color: #f3f3f3;
+}
+
+.technology-inner-benefits-bottom {
+    margin-top: 3.75vw;
+}
+
+.technology-inner-benefits-bottom-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    gap: 0px 3.958vw;
+}
+
+.technology-inner-benefits-bottom-list {
+    font-size: 1.25vw;
+    color: #dddddd;
+    line-height: 160%;
+    margin: 0px;
+    max-width: 37.917vw;
+    width: 50%;
+    padding: 0.99vw 3.542vw 0.833vw 0.521vw;
+    border-top: 1px solid #dddddd;
+}
+
+.technology-inner-benefits-bottom-list:nth-last-child(1),
+.technology-inner-benefits-bottom-list:nth-last-child(2) {
+    border-bottom: 1px solid #dddddd;
+}
+
+@media screen and (min-width: 1921px) {
+    .technology-inner-benefits-bottom {
+        margin-top: 73px;
+    }
+
+    .technology-inner-benefits-bottom-ul {
+        gap: 0px 76px;
+    }
+
+    .technology-inner-benefits-bottom-list {
+        font-size: 24px;
+        max-width: 728px;
+        padding: 19px 68px 16px 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .technology-inner-benefits-bottom-list {
+        width: 100%;
+        max-width: 100%;
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+}

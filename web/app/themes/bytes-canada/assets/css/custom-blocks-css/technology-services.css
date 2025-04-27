@@ -1,0 +1,87 @@
+
+.technology-inner-service-bg {
+    background-image: url("/app/themes/bytes-canada/assets/images/technology-inner-bg.webp");
+    background-size: 100% 100%;
+}
+
+.technology-inner-service-title .h3 {
+    color: #dddddd;
+    margin-bottom: 3.75vw;
+}
+
+.technology-inner-service-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    gap: 3.75vw 5.052vw;
+}
+
+.technology-inner-service-box .h6 {
+    color: #f3f3f3;
+    padding-top: 0.833vw;
+    margin-bottom: 1.667vw;
+    border-top: 1px solid #3c4d60;
+}
+
+.technology-inner-service-box p {
+    color: #f3f3f3;
+}
+
+.technology-inner-service-box p a, .technology-inner-service-box p i  {
+    color: #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 2px;
+}
+
+.technology-inner-service-box {
+    max-width: 24.375vw;
+    width: 33.3%;
+}
+
+@media screen and (min-width: 1921px) {
+    .technology-inner-service-title .h3 {
+        margin-bottom: 72px;
+    }
+
+    .technology-inner-service-boxes {
+        gap: 72px 97px;
+    }
+
+    .technology-inner-service-box .h6 {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    .technology-inner-service-box {
+        max-width: 468px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .technology-inner-service-boxes {
+        gap: 16px;
+    }
+
+    .technology-inner-service-box {
+        max-width: calc(50% - 8px);
+        width: 100%;
+    }
+
+    .technology-inner-service-box .h6 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .technology-inner-service-box {
+        max-width: 100%;
+    }
+
+    .technology-inner-service-box .h6 {
+        font-size: 16px;
+        padding-top: 12px;
+        margin-bottom: 8px;
+    }
+}

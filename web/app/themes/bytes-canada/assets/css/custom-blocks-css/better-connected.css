@@ -1,0 +1,258 @@
+
+.our-guide-newsletter-outbox {
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 4.688vw 0px;
+}
+.our-guide-newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.our-guide-newsletter-left {
+  width: 17.292vw;
+}
+.our-guide-newsletter-left .h3 {
+  color: #ffffff;
+}
+.our-guide-newsletter-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.our-guide-newsletter-right-s2-p1 h3 {
+  font-weight: 500;
+  font-size: 1.25vw;
+  line-height: 120%;
+  color: #f3f3f3;
+  margin-bottom: 1.667vw;
+}
+.noptin-big.noptin-padded {
+  width: 100%;
+  color: #fff;
+  font-size: 22px;
+}
+.our-guide-newsletter-right-s1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.our-guide-newsletter-right-s1 img {
+  width: 6.563vw;
+  height: auto;
+}
+.our-guide-newsletter-right-s2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+.noptin-label {
+  display: none;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right {
+  width: 41.146vw !important;
+  height: auto;
+  min-height: auto !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right {
+  margin: 0px;
+}
+.noptin-form-header {
+  display: none;
+}
+.noptin-form-footer {
+  padding: 0px;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+  .noptin-field-email
+  input[type="email"] {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f3f3f3 !important;
+  height: 2.917vw;
+  outline: none;
+  font-weight: 400;
+  font-size: 1.042vw;
+  line-height: 160%;
+  color: #ffffff !important;
+  padding-bottom: 0.833vw;
+  padding-left: 0px;
+  border-radius: 0px;
+  padding-right: clamp(50px, 4.167vw, 80px);
+}
+.noptin-form-fields{position: relative;}
+.noptin-optin-form  .noptin-form-footer .noptin_feedback_error{
+  padding: 0px !important;
+  margin: 0px;
+  font-size: 16px;
+  color: #dddddd;
+  }
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+  .noptin-field-email
+  input[type="email"]:focus {
+  background: transparent;
+  background-color: transparent;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+  .noptin-field-email
+  input[type="email"]::-webkit-input-placeholder {
+  color: #dddddd;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+  .noptin-field-email
+  input[type="email"]::-moz-placeholder {
+  color: #dddddd;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+  .noptin-field-email
+  input[type="email"]:-ms-input-placeholder {
+  color: #dddddd;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+  .noptin-field-email
+  input[type="email"]::-ms-input-placeholder {
+  color: #dddddd;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+  .noptin-field-email
+  input[type="email"]::placeholder {
+  color: #dddddd;
+}
+.noptin-optin-form-wrapper.noptin-slide-from-bottom_right input[type="submit"] {
+  font-weight: 700;
+  font-size: 1.042vw;
+  line-height: 122%;
+  color: #f3f3f3 !important;
+  background-color: transparent !important;
+  border: none;
+  position: absolute;
+  right: 0px;
+  bottom: 1.25vw;
+  width: auto;
+  padding: 0;
+}
+.noptin-form-footer {
+  position: relative;
+  z-index: 1;
+}
+@media screen and (min-width: 1921px) {
+  .our-guide-newsletter-outbox {
+    padding: 90px 0px;
+  }
+  .our-guide-newsletter-left {
+    width: 332px;
+  }
+  .our-guide-newsletter-right-s2-p1 h3 {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right {
+    width: 790px !important;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+    .noptin-field-email
+    input[type="email"] {
+    height: 56px;
+    font-size: 20px;
+    padding-bottom: 16px;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+    input[type="submit"] {
+    font-size: 20px;
+    bottom: 24px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .our-guide-newsletter-left {
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .our-guide-newsletter-right {
+    width: 100%;
+  }
+  .our-guide-newsletter-right-s1 img {
+    width: 60px;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right {
+    width: 100% !important;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+    .noptin-field-email
+    input[type="email"] {
+    height: 26px;
+    font-size: 14px;
+    padding-bottom: 16px;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+    input[type="submit"] {
+    font-size: 13px;
+    bottom: 14px;
+  }
+  .our-guide-newsletter-right-s2 {
+    width: 100%;
+  }
+  .our-guide-newsletter-right-s2-p1 h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .our-guide-newsletter {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    gap: 32px;
+  }
+  .our-guide-newsletter-left {
+    width: 60%;
+  }
+  .our-guide-newsletter-right {
+    width: 100%;
+  }
+  .our-guide-newsletter-right-s1 img {
+    width: 60px;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right {
+    width: 100% !important;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+    .noptin-field-email
+    input[type="email"] {
+    height: 26px;
+    font-size: 14px;
+    padding-bottom: 16px;
+  }
+  .noptin-optin-form-wrapper.noptin-slide-from-bottom_right
+    input[type="submit"] {
+    font-size: 13px;
+    bottom: 14px;
+  }
+  .our-guide-newsletter-right-s2 {
+    width: 100%;
+  }
+  .our-guide-newsletter-right-s2-p1 h3 {
+    font-size: 14px;
+    line-height: 140%;
+  }
+}

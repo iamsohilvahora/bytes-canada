@@ -1,0 +1,317 @@
+.service-zoom-shape {
+  opacity: 1;
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  animation: spring 3s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+  -webkit-animation: spring 3s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+}
+
+@-webkit-keyframes spring {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  30% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  35% {
+    -webkit-transform: matrix(1.35, 0, 0, 1.35, 0, 0);
+    transform: matrix(1.35, 0, 0, 1.35, 0, 0);
+  }
+
+  40% {
+    -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  }
+
+  45% {
+    -webkit-transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+    transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+  }
+
+  70% {
+    -webkit-transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+    transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: matrix(0.8, 0, 0, 0.8, 0, 0);
+    transform: matrix(0.8, 0, 0, 0.8, 0, 0);
+  }
+
+  80% {
+    -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  }
+
+  85% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+@keyframes spring {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  30% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  35% {
+    -webkit-transform: matrix(1.35, 0, 0, 1.35, 0, 0);
+    transform: matrix(1.35, 0, 0, 1.35, 0, 0);
+  }
+
+  40% {
+    -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  }
+
+  45% {
+    -webkit-transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+    transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+  }
+
+  70% {
+    -webkit-transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+    transform: matrix(1.29, 0, 0, 1.29, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: matrix(0.8, 0, 0, 0.8, 0, 0);
+    transform: matrix(0.8, 0, 0, 0.8, 0, 0);
+  }
+
+  80% {
+    -webkit-transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+  }
+
+  85% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+.innerpage-title {
+  height: 100vh;
+}
+
+.innerpage-title-bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.innerpage-title-bg span {
+  -webkit-filter: blur(13.125vw);
+  filter: blur(13.125vw);
+  position: absolute;
+  width: 30.156vw;
+  height: 30.156vw;
+}
+
+.innerpage-title-bg .shade1 {
+  background: #3c88f4;
+  opacity: 0.4;
+  left: -1.875vw;
+  top: 9.219vw;
+}
+
+.innerpage-title-bg .shade2 {
+  background: #50295e;
+  opacity: 0.7;
+  left: 42.292vw;
+  top: 7.865vw;
+}
+
+.innerpage-title-bg .shade3 {
+  background: #da3333;
+  opacity: 0.3;
+  left: auto;
+  right: 0px;
+  top: 23.333vw;
+}
+
+.service-banner-data {
+  position: absolute;
+  top: 5.052vw;
+  height: calc(100% - 5.052vw);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.service-banner-data-p1 {
+  position: absolute;
+  top: -8.115vw;
+  left: -8.115vw;
+  z-index: -1;
+}
+
+.service-banner-data-p1 img {
+  max-width: 18.177vw;
+  max-height: 18.177vw;
+}
+
+.service-banner-data-p2 {
+  width: 100%;
+  max-width: 83vw;
+  margin: 0px auto;
+  z-index: 3;
+  margin-top: clamp(20px, 4.167vw, 80px);
+}
+
+.service-banner-data-p2 .bredcrum {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.service-banner-data-p2 .bredcrum p {
+  color: #F3F3F3;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.service-banner-data-p2 .bredcrum p a {
+  color: #a5dbff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.service-banner-data-p2 .bredcrum p b {
+  color: #f3f3f3;
+}
+.service-banner-data-p2 .bredcrum p a i {
+  font-style: normal;
+  margin: 0px 8px;
+}
+
+.service-banner-data-p2 h1 {
+  color: #ffffff;
+}
+.service-banner-data-p2 h1 b {
+  width: 100%;
+  display: block;
+  word-wrap: break-word;
+}
+.service-banner-data-p2 span {
+  color: #da3333;
+  font-family: "Aeonik-Bold";
+}
+
+.service-banner-data-p2 u {
+  height: 1.458vw;
+  width: 1.458vw;
+  display: inline-table;
+  margin: 0px 0px 0px 1.042vw;
+  background-color: #da3333;
+}
+
+.service-banner-data-p2 .btn {
+  margin-top: 3.125vw;
+}
+
+@media screen and (min-width: 1921px) {
+  .service-banner-data-p2 u {
+    height: 28px;
+    width: 28px;
+    margin: 0px 0px 1px 16px;
+  }
+
+  .service-banner-data-p2 .btn {
+    margin-top: 60px;
+  }
+
+  .innerpage-title-bg span {
+    max-height: 579px;
+    max-width: 579px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  .innerpage-title {
+    max-height: 500px;
+  }
+
+  .service-banner-data {
+    max-height: 500px;
+  }
+
+  .service-banner-data {
+    top: 72px;
+    height: calc(100% - 72px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .innerpage-title-bg span {
+    -webkit-filter: blur(20.125vw);
+    filter: blur(20.125vw);
+  }
+
+  .innerpage-title-bg .shade1 {
+    top: 22.219vh;
+  }
+
+  .innerpage-title-bg .shade2 {
+    top: 42.219vh;
+  }
+
+  .innerpage-title-bg .shade3 {
+    top: 69.219vh;
+  }
+
+  .service-banner-data-p2 {
+    max-width: 100vw;
+    padding: 0px 16px;
+  }
+
+  .service-banner-data-p2 u {
+    height: 10px;
+    width: 10px;
+    margin: 0px 0px 0px 1.042vw;
+  }
+  .innerpage-title {
+    max-height: 500px;
+  }
+  .service-banner-data {
+    top: 62px;
+    height: calc(100% - 62px);
+    max-height: 438px;
+  }
+  .service-banner-data-p2 .btn {
+    margin-top: 30px;
+  }
+  .service-banner-data-p2 .bredcrum p {
+    line-height: 160%;
+    font-size: 14px;
+  }
+  .service-banner-data-p2 .bredcrum p a{
+    font-size: 14px;
+  }
+}

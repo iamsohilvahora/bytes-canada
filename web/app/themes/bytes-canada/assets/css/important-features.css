@@ -1,0 +1,50 @@
+
+.case-study-feature .h4 {
+    color: #f3f3f3;
+}
+.case-study-feature ul {
+    margin-top: 3.75vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    gap: 0px 4.688vw;
+}
+.case-study-feature li {
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 160%;
+    color: #f3f3f3;
+    border-top: 1px solid #627488;
+    padding: 1.25vw 0px 0px;
+    width: calc(50% - 2.344vw);
+}
+@media screen and (min-width: 1921px) {
+    .case-study-feature ul {
+        margin-top: 72px;
+        gap: 0px 90px;
+    }
+    .case-study-feature li {
+        font-size: 24px;
+        padding: 24px 0px 0px;
+        width: calc(50% - 45px);
+    }
+}
+@media screen and (max-width: 991px) {
+    .case-study-feature li {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .case-study-feature ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+    }
+    .case-study-feature li {
+        width: 100%;
+        font-size: 16px;
+    }
+}

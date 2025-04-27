@@ -1,0 +1,107 @@
+
+.case-study-data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.case-study-data-left {
+    width: 156px;
+}
+.case-study-data-left .case-study-data-left-title {
+    color: #ccdff5;
+    font-weight: 500;
+    font-size: 1.042vw;
+    line-height: 120%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 0.833vw;
+}
+.case-study-data-left .case-study-data-left-data {
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 160%;
+    color: #dddddd;
+    margin-bottom: 3.333vw;
+}
+.case-study-data-right {
+    width: 66.406vw;
+}
+.case-study-data-right .case-study-data-right-title {
+    font-weight: 500;
+    font-size: 0.833vw;
+    line-height: 120%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ccdff5;
+    margin-bottom: 0.833vw;
+}
+.case-study-data-right .case-study-data-right-data {
+    font-weight: 400;
+    font-size: 1.042vw;
+    color: #dddddd;
+    line-height: 160%;
+    margin-bottom: 2.5vw;
+}
+@media screen and (min-width: 1921px) {
+    .case-study-data-left {
+        width: 156px;
+    }
+    .case-study-data-left .case-study-data-left-title {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .case-study-data-left .case-study-data-left-data {
+        font-size: 20px;
+        margin-bottom: 64px;
+    }
+    .case-study-data-right {
+        width: 1275px;
+    }
+    .case-study-data-right .case-study-data-right-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .case-study-data-right .case-study-data-right-data {
+        font-size: 20px;
+        margin-bottom: 48px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .case-study-data-left .case-study-data-left-title {
+        font-size: 16px;
+    }
+    .case-study-data-left .case-study-data-left-data {
+        font-size: 14px;
+    }
+    .case-study-data-right .case-study-data-right-title {
+        font-size: 16px;
+    }
+    .case-study-data-right .case-study-data-right-data {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .case-study-data {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+    }
+    .case-study-data-right {
+        width: 100%;
+        margin-top: 32px;
+    }
+    .case-study-data-right .case-study-data-right-data {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .case-study-data-left .case-study-data-left-title {
+        line-height: 140%;
+    }
+    .case-study-data-right .case-study-data-right-title {
+        line-height: 140%;
+    }
+}

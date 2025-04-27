@@ -1,0 +1,94 @@
+
+.solution-inner-on-demand-top .h3 {
+    color: #f3f3f3;
+    margin-bottom: 1.25vw;
+}
+.solution-inner-on-demand-top p {
+    color: #dddddd;
+}
+.solution-inner-on-demand-bottom {
+    margin-top: 2.813vw;
+}
+.solution-inner-on-demand-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 4.271vw;
+}
+.solution-inner-on-demand-box {
+    width: 24.896vw;
+}
+.solution-inner-on-demand-imgbox {
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.solution-inner-on-demand-box:hover img {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+.solution-inner-on-demand-box img {
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.solution-inner-on-demand-box .h5 {
+    color: #f3f3f3;
+    margin-bottom: 0.833vw;
+    margin-top: 1.667vw;
+}
+.solution-inner-on-demand-box p {
+    color: #dddddd;
+    padding-bottom: 1.667vw;
+    border-bottom: 1px solid #b0b0b0;
+}
+@media screen and (min-width: 1921px) {
+    .solution-inner-on-demand-top .h3 {
+        margin-bottom: 24px;
+    }
+    .solution-inner-on-demand-bottom {
+        margin-top: 54px;
+    }
+    .solution-inner-on-demand-boxes {
+        gap: 82px;
+    }
+    .solution-inner-on-demand-box {
+        width: 478px;
+    }
+    .solution-inner-on-demand-box .h5 {
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
+    .solution-inner-on-demand-box p {
+        padding-bottom: 32px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .solution-inner-on-demand-boxes {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+    }
+    .solution-inner-on-demand-box {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .solution-inner-on-demand-bottom {
+        margin-top: 32px;
+    }
+    .solution-inner-on-demand-box .h5{
+        margin-bottom: 8px;
+        margin-top: 16px;
+    }
+}

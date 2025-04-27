@@ -1,0 +1,167 @@
+.simplified-bg {
+  background-image: url("/app/themes/bytes-canada/assets/images/Process.webp");
+  height: 37.031vw;
+  padding: 4.688vw 0px;
+  background-size: contain;
+}
+.simplified-bg .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+.simplified-bg h2 {
+  color: #f3f3f3;
+  text-align: center;
+}
+.simplified-steps {
+  padding: 0px;
+  width: 100%;
+}
+.simplified-steps-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 2.969vw 0px 2.969vw 0px;
+  max-width: 100vw;
+}
+.simplified-steps-box {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  gap: 1.146vw;
+  width: 25%;
+  height: auto !important;
+  margin-bottom: 3.854vw;
+}
+.simplified-steps-box img {
+  max-height: 8vw;
+  width: auto;
+}
+.simplified-steps-box h3 {
+  color: #f3f3f3;
+  text-align: center;
+}
+.steps-boxes-Swiper {
+  width: 100%;
+}
+.simplified-steps-box:nth-child(1){
+  margin: 0px 0px 4.688vw 0px;
+  padding-left: 2.083vw;
+}
+.simplified-steps-box:nth-child(2){
+  margin: 3.125vw 0px 0px 0px;
+  padding-left: 3.646vw;
+}
+.simplified-steps-box:nth-child(3){
+  margin: 0px 0px 7.292vw 0px;
+}
+.simplified-steps-box:nth-child(4){
+  margin:0px 0px 2.083vw 0px;
+}
+
+@media screen and (min-width: 1921px) {
+  .simplified-bg {
+    max-width: 100%;
+    max-height: 771px;
+    padding: 90px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #091b2b;
+  }
+  .simplified-bg .container {
+    margin: 0px auto;
+    background-image: url(/app/themes/bytes-canada/assets/images/Process.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 83.25vw;
+    max-width: 1798px;
+  }
+  .simplified-bg h2 {
+    text-align: center;
+  }
+  .simplified-steps-boxes {
+    margin: 0px;
+  }
+  .simplified-steps-box:nth-child(1){
+    margin: 0px 0px 90px 0px;
+    padding-left: 40px;
+  }
+  .simplified-steps-box:nth-child(2){
+    margin: 60px 0px 0px 0px;
+    padding-left: 70px;
+  }
+  .simplified-steps-box:nth-child(3){
+    margin: 0px 0px 140px 0px;
+  }
+  .simplified-steps-box:nth-child(4){
+    margin:0px 0px 40px 0px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .simplified-steps-box img {
+    height: 60px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .simplified-bg {
+    height: auto;
+    background-size: auto;
+  }
+  .simplified-steps-box img {
+    height: 100px;
+    width: auto;
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+  .simplified-bg h2 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .simplified-steps-boxes {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+  .simplified-steps-box {
+    width: 100%;
+    gap: 16px;
+  }
+  .simplified-steps-box:nth-child(even) {
+    margin-bottom: 3.854vw;
+    margin-top: 0px;
+  }
+}

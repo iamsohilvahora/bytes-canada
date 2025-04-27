@@ -1,0 +1,26 @@
+
+.solution-inner-architecture .h3 {
+    color: #f3f3f3;
+    margin-bottom: 1.25vw;
+}
+.solution-inner-architecture p {
+    color: #dddddd;
+    margin-bottom: 0px;
+}
+.solution-inner-architecture img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3.75vw auto 0px auto;
+}
+@media screen and (min-width: 1921px) {
+    .solution-inner-architecture .h3 {
+        margin-bottom: 24px;
+    }
+    .solution-inner-architecture p {
+        margin-bottom: 0px;
+    }
+    .solution-inner-architecture img {
+        margin: 72px auto 0px auto;
+    }
+}

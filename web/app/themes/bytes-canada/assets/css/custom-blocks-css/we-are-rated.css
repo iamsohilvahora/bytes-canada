@@ -1,0 +1,59 @@
+.About-typing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+.About-typing-left {
+  width: 28.813vw;
+  color: #ffffff;
+}
+.About-typing-left span {
+  font-family: Aeonik-Bold;
+}
+.About-typing-right {
+  width: calc(100% - 33.646vw);
+  color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  gap: 1.667vw;
+}
+.About-typing-right .h6 {
+  color: #ddd;
+  font-family: "Aeonik";
+  line-height: 160%;
+}
+.ityped span {
+  background: linear-gradient(90.9deg, #d2b077 0.28%, #cbb69e 102.42%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: none;
+}
+@media screen and (min-width: 1921px) {
+  .About-typing-right {
+    width: calc(100vw - 33.646vw);
+  }
+}
+@media screen and (max-width: 767px) {
+  .About-typing {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+  }
+  .About-typing-left {
+    width: 100%;
+    border-bottom: 1px solid #b0b0b0;
+    padding-bottom: 16px;
+  }
+  .About-typing-right {
+    width: 100%;
+  }
+}

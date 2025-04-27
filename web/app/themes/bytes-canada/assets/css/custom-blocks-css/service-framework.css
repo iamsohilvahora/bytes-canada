@@ -1,0 +1,110 @@
+
+.service-inner-framework-bg {
+    background: #091d2d;
+}
+
+.service-inner-framework-top {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    gap: clamp(12px, 1.250vw, 24px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.service-inner-framework-top .h3 {
+    color: #f3f3f3;
+}
+
+.service-inner-framework-top p {
+    color: #dddddd;
+    margin: 0px;
+}
+
+.service-inner-framework-bottom {
+    margin-top: clamp(32px, 5.729vw, 110px);
+}
+
+.service-inner-framework-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    gap: 5.677vw;
+}
+
+.service-inner-framework-box {
+    width: 9.115vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    gap: clamp(12px, 1.250vw, 24px);
+}
+
+.service-inner-framework-box img {
+    height: 7.083vw;
+    width: 7.083vw;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.service-inner-framework-box .h6 {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+@media screen and (min-width: 1921px) {
+    .service-inner-framework-top {
+        gap: 24px;
+    }
+
+    .service-inner-framework-bottom {
+        margin-top: 110px;
+    }
+
+    .service-inner-framework-boxes {
+        gap: 109px;
+    }
+
+    .service-inner-framework-box {
+        width: 175px;
+        gap: 24px;
+    }
+
+    .service-inner-framework-box img {
+        height: 136px;
+        width: 136px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .service-inner-framework-boxes {
+        gap: 4.677vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service-inner-framework-box {
+        width: calc(33.3% - 3.877vw);
+    }
+
+    .service-inner-framework-box img {
+        width: 50px;
+        height: 50px;
+    }
+    .service-inner-framework-box .h6{
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}

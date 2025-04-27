@@ -1,0 +1,110 @@
+
+.about-company-leaders .h4 {
+  color: #f3f3f3;
+  margin-bottom: 3.75vw;
+}
+.about-company-leaders-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 25px;
+}
+.about-company-leaders-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+.about-company-leaders-box img {
+  width: 100%;
+  height: auto;
+}
+.about-company-leaders-box h3 {
+  font-weight: 700;
+  font-size: 1.875vw;
+  line-height: 122%;
+  color: #f3f3f3;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #4f6073;
+  margin-top: 1.667vw;
+}
+.about-company-leaders-box h4 {
+  font-weight: 400;
+  font-size: 0.833vw;
+  line-height: 122%;
+  color: #dddddd;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1921px) {
+  .about-company-leaders .h4 {
+    color: #f3f3f3;
+    margin-bottom: 72px;
+  }
+  .about-company-leaders-box h3 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    margin-top: 32px;
+  }
+  .about-company-leaders-box h4 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about-company-leaders-boxes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    gap: 32px;
+  }
+  .about-company-leaders-box img {
+    width: 100%;
+    height: auto;
+  }
+  .about-company-leaders-box h3 {
+    font-size: 13px;
+  }
+  .about-company-leaders-box h4 {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about-company-leaders-boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    gap: 32px;
+  }
+  .about-company-leaders-box img {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .about-company-leaders-box{
+    width: calc(50% - 8px);
+  }
+  .about-company-leaders-boxes{
+    display: flex;
+    flex-flow: wrap;
+    gap: 16px;
+  }
+  .about-company-leaders-box h3 {
+    font-size: 16px;
+  }
+  .about-company-leaders-box h4 {
+    font-size: 13px;
+  }
+  .about-company-leaders .h4{
+    font-size: 26px;
+  }
+}

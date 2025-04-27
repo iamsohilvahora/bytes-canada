@@ -1,0 +1,41 @@
+
+.Experience-Section-text h2 {
+    font-size: 7.083vw;
+    line-height: 122%;
+    color: #f3f3f3;
+    font-family: "Aeonik-Bold";
+}
+
+.Experience-Section-text span {
+    font-family: "Aeonik-Bold";
+}
+
+.Experience-Section-text .shade1 {
+    background: -o-linear-gradient(359.1deg, #dcb447 0.28%, #d4bc98 102.42%);
+    background: linear-gradient(90.9deg, #dcb447 0.28%, #d4bc98 102.42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.Experience-Section-text .shade2 {
+    background: -o-linear-gradient(359.1deg, #8d629b 0.28%, #8d629b 102.42%);
+    background: linear-gradient(90.9deg, #8d629b 0.28%, #8d629b 102.42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.Experience-Section-text .shade3 {
+    background: -o-linear-gradient(359.1deg, #ff6156 0.28%, #ff6156 102.42%);
+    background: linear-gradient(90.9deg, #ff6156 0.28%, #ff6156 102.42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+@media screen and (min-width: 1920px) {
+    .Experience-Section-text h2 {
+        font-size: 136px;
+    }
+}

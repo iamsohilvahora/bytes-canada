@@ -1,0 +1,121 @@
+
+.technology-inner-stack-development-top .h3 {
+    color: #f3f3f3;
+    margin-bottom: 1.25vw;
+}
+
+.technology-inner-stack-development-top p {
+    color: #dddddd;
+}
+
+.technology-inner-stack-development-bottom {
+    margin-top: 3.75vw;
+}
+
+.technology-inner-stack-development-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    gap: 2.5vw;
+}
+
+.technology-inner-stack-development-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.technology-inner-stack-development-box-left {
+    width: 7.958vw;
+    padding-right: 1vw;
+}
+
+.technology-inner-stack-development-boxes .technology-inner-stack-development-box:nth-last-child(1){
+    border-bottom: none;
+}
+
+.technology-inner-stack-development-box-right {
+    width: calc(100% - 13.75vw);
+}
+
+.technology-inner-stack-development-box-right .h5 {
+    color: #f3f3f3;
+    margin-bottom: 1.25vw;
+}
+
+.technology-inner-stack-development-box-right p {
+    color: #dddddd;
+    margin-bottom: 2.5vw;
+}
+
+@media screen and (min-width: 1921px) {
+    .technology-inner-stack-development-top .h3 {
+        margin-bottom: 24px;
+    }
+
+    .technology-inner-stack-development-bottom {
+        margin-top: 72px;
+    }
+
+    .technology-inner-stack-development-boxes {
+        gap: 48px;
+    }
+
+    .technology-inner-stack-development-box-left {
+        width: 172px;
+    }
+
+    .technology-inner-stack-development-box-right {
+        width: calc(100% - 172px);
+    }
+
+    .technology-inner-stack-development-box-right .h5 {
+        margin-bottom: 24px;
+    }
+
+    .technology-inner-stack-development-box-right p {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .technology-inner-stack-development-bottom {
+        margin-top: 32px;
+    }
+
+    .technology-inner-stack-development-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+                gap: 10px;
+    }
+
+    .technology-inner-stack-development-box-left {
+        width: 100%;
+    }
+    .technology-inner-stack-development-box-left img{
+        height: 72px;
+        width: 72px;
+    }
+
+    .technology-inner-stack-development-box-right {
+        width: 100%;
+    }
+
+    .technology-inner-stack-development-box-right .h5 {
+        margin-bottom: 8px;
+    }
+
+    .technology-inner-stack-development-box-right p {
+        margin-bottom: 16px;
+    }
+    .technology-inner-stack-development-boxes{
+        gap: 32px;
+    }
+}

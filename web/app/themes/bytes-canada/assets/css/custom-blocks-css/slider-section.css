@@ -1,0 +1,76 @@
+
+.home-services {
+    overflow: hidden;
+}
+
+.home-services .swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.home-services .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+         -o-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+    position: relative;
+}
+
+.home-services .swiper-slide {
+    text-align: center;
+    background: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    background-color: #080215;
+
+}
+
+.home-services .swiper-slide a, .home-services .swiper-slide i {
+    padding: 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    background-color: #080215;
+    font-size: 3.33vw;
+    line-height: 122%;
+    font-family: Aeonik-Bold;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    color: #080215;
+    letter-spacing: 0.11em;
+}
+
+.home-services .swiper-slide a:hover, .home-services .swiper-slide i:hover {
+    background: -o-linear-gradient(359.1deg, #DA3333 0.28%, #DAB533 102.42%);
+    background: linear-gradient(90.9deg, #DA3333 0.28%, #DAB533 102.42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+}
+
+@media screen and (max-width: 767px) {
+    .home-services .swiper-slide a, .home-services .swiper-slide i {
+        font-size: 22px;
+        padding: 0px 12px;
+    }
+}

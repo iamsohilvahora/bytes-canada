@@ -1,0 +1,32 @@
+
+.We-build .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    gap: clamp(12px, 1.250vw, 24px);
+}
+
+.We-build .container span {
+    color: #a5dbff;
+    font-size: 16px;
+}
+
+.We-build .container h2 {
+    color: #f3f3f3;
+}
+
+.We-build .container p {
+    color: #dddddd;
+    font-family: "Aeonik";
+    line-height: 160%;
+}
+
+@media screen and (max-width: 767px) {
+    .We-build .container span {
+        font-size: 14px;
+    }
+}

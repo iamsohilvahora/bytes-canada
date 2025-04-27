@@ -1,0 +1,102 @@
+
+.odoo-development-box {
+    border-bottom: 1px solid #dddddd;
+    padding: 4.167vw 0px 8.333vw 0px;
+    margin: 0px;
+}
+.odoo-development {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.odoo-development-left {
+    width: 20.781vw;
+}
+.odoo-development-title {
+    color: #f3f3f3;
+}
+.odoo-development-right {
+    width: 58.229vw;
+}
+.odoo-development-data {
+    color: #dddddd;
+    font-size: 1.042vw;
+}
+.odoo-development-lists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.667vw;
+}
+.odoo-development-links {
+    color: #f3f3f3;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.833vw;
+    line-height: 122%;
+    font-family: "Aeonik-Bold";
+    border-bottom: 2px solid #f3f3f3;
+}
+@media screen and (min-width: 1921px) {
+    .odoo-development-left {
+        width: 399px;
+    }
+    .odoo-development-right {
+        width: 1118px;
+    }
+    .odoo-development-lists {
+        gap: 32px;
+    }
+    .odoo-development-data {
+        font-size: 20px;
+    }
+    .odoo-development-links {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .odoo-development-data {
+        font-size: 14px;
+    }
+    .odoo-development-links {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .odoo-development {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        gap: 32px;
+    }
+    .odoo-development-left {
+        width: 100%;
+    }
+    .odoo-development-right {
+        width: 100%;
+    }
+    .odoo-development-data {
+        font-size: 16px;
+    }
+    .odoo-development-lists {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        gap: 16px;
+    }
+    .odoo-development-links {
+        font-size: 14px;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+}

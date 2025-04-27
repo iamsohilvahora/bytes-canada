@@ -1,0 +1,45 @@
+
+.Solution-inner-CTA-bg {
+    background-image: url("/app/themes/bytes-canada/assets/images/solution-inner-CTA.webp");
+    background-size: 100% 100%;
+}
+.Solution-inner-CTA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.Solution-inner-CTA-left {
+    width: 52.969vw;
+}
+.Solution-inner-CTA-left .h3 {
+    color: #393939;
+}
+.Solution-inner-CTA-left .h3 i{
+    color: #da3333;
+}
+@media screen and (min-width: 1921px) {
+    .Solution-inner-CTA-left {
+        width: 1017px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .Solution-inner-CTA {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+    }
+    .Solution-inner-CTA-left {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .Solution-inner-CTA-right {
+        width: 100%;
+    }
+}

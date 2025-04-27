@@ -1,0 +1,93 @@
+
+.We-build-text {
+    overflow: hidden;
+}
+
+.We-build-text .swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.We-build-text .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+         -o-transition-timing-function: linear !important;
+            transition-timing-function: linear !important;
+    position: relative;
+}
+
+.We-build-text .swiper-slide {
+    text-align: center;
+    background: #fff;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    background-color: #080215;
+
+}
+
+.We-build-text .swiper-slide span {
+    padding: 0 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: capitalize;
+    background-color: #080215;
+    font-size: 3.33vw;
+    line-height: 122%;
+    font-weight: 700;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    color: #080215;
+    gap: 1.250vw;
+    letter-spacing: 0.313vw;
+}
+
+.We-build-text .swiper-slide span img {
+    min-width: 1.823vw;
+    min-height: 1.823vw;
+    max-width: 4.688vw;
+    max-height: 4.688vw;
+}
+
+.We-build-text .swiper-slide span:hover {
+    background: -o-linear-gradient(359.1deg, #DA3333 0.28%, #DAB533 102.42%);
+    background: linear-gradient(90.9deg, #DA3333 0.28%, #DAB533 102.42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+}
+
+@media screen and (max-width: 767px) {
+    .We-build-text .swiper-slide span {
+        font-size: 22px;
+        padding: 0px 12px;
+        gap: 20px;
+        letter-spacing: 5px;
+    }
+
+    .We-build-text .swiper-slide span img {
+        min-width: 5.823vw;
+        min-height: 5.823vw;
+        max-width: 8.688vw;
+        max-height: 8.688vw;
+    }
+}

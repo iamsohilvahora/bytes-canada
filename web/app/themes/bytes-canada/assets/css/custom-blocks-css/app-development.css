@@ -1,0 +1,97 @@
+
+.core-engineering {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.core-engineering-box {
+    width: 32.813vw;
+}
+.core-engineering-box-title {
+    color: #f3f3f3;
+    margin-bottom: 1.25vw;
+    max-width: 20vw;
+}
+.core-engineering-box-data {
+    color: #dddddd;
+    font-size: 1.042vw;
+    margin-bottom: 2.5vw;
+}
+.core-engineering-box-list-link {
+    color: #868686;
+    font-family: "Aeonik";
+    line-height: 160%;
+    padding-bottom: 1.042vw;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #868686;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.core-engineering-box-list:hover .core-engineering-box-list-link {
+    color: #ffffff;
+}
+.core-engineering-box-list:hover .core-engineering-box-list-number {
+    bottom: 2px;
+    color: #ffffff;
+}
+.core-engineering-box-list-number {
+    font-size: 0.833vw;
+    line-height: 160%;
+    color: #868686;
+    position: relative;
+    bottom: -10px;
+    margin-right: 0.833vw;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+@media screen and (min-width: 1921px) {
+    .core-engineering-box {
+        width: 630px;
+    }
+    .core-engineering-box-title {
+        margin-bottom: 24px;
+    }
+    .core-engineering-box-data {
+        font-size: 20px;
+        margin-bottom: 48px;
+    }
+    .core-engineering-box-list-link {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .core-engineering-box-data {
+        font-size: 14px;
+    }
+    .core-engineering-box-list-number {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .core-engineering {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+        gap: 32px;
+    }
+    .core-engineering-box {
+        width: 100%;
+    }
+    .core-engineering-box-data {
+        font-size: 14px;
+    }
+    .core-engineering-box-title {
+        max-width: 60vw;
+    }
+    .core-engineering-box-list-number {
+        font-size: 14px;
+        bottom: -6px;
+    }
+}

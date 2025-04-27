@@ -1,0 +1,30 @@
+
+.case-study-portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    gap: 2.604vw 3.979vw;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+.case-study-portfolio img:last-of-type {
+    width: 100%;
+}
+.case-study-portfolio img {
+    width: calc(50% - 2vw);
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (min-width: 1921px) {
+    .case-study-portfolio {
+        gap: 50px 38px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .case-study-portfolio {
+        gap: 32px;
+    }
+}

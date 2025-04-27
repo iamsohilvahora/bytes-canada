@@ -1,0 +1,109 @@
+
+.about-company-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about-company-counter-left {
+  width: 36.667vw;
+}
+.about-company-counter-left .h3 {
+  color: #f3f3f3;
+}
+.about-company-counter-right {
+  width: 41.198vw;
+}
+.about-company-counter-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: wrap-reverse;
+          flex-flow: wrap-reverse;
+  gap: 2.083vw;
+}
+.about-company-counter-box {
+  width: calc(50% - 1.042vw);
+}
+.about-company-counter-box:nth-last-child(1)  {
+  width: calc(100% - 0.521vw);
+}
+.about-company-counter-box h2 {
+  font-weight: 400;
+  font-size: 5.729vw;
+  line-height: 5.729vw;
+  color: #f3f3f3;
+  border-bottom: 1px solid #4f6073;
+  width: 100%;
+  padding-bottom: 1.25vw;
+  margin-bottom: 1.25vw;
+}
+.about-company-counter-box h3 {
+  color: #dddddd;
+  font-weight: 500;
+  font-size: 1.25vw;
+  line-height: 120%;
+}
+.about-company-counter-box h2::after {
+  content: "+";
+}
+@media screen and (min-width: 1921px) {
+.about-company-counter-left {
+  width: 704px;
+}
+.about-company-counter-right {
+  width: 791px;
+}
+.about-company-counter-boxes {
+  gap: 40px;
+}
+.about-company-counter-box {
+  width: calc(50% - 20px);
+}
+.about-company-counter-box h2 {
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 110px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.about-company-counter-box h3 {
+  font-size: 24px;
+}
+}
+@media screen and (max-width: 767px) {
+.about-company-counter {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  gap: 20px;
+}
+.about-company-counter-left {
+  width: 100%;
+}
+.about-company-counter-right {
+  width: 100%;
+}
+.about-company-counter-boxes {
+  gap: 30px;
+}
+.about-company-counter-box {
+  width: calc(50% - 20px);
+}
+.about-company-counter-box:nth-last-child(1)  {
+  width: calc(100% - 10px);
+}
+.about-company-counter-box h3 {
+  font-size: 16px;
+  line-height: 140%;
+}
+.about-company-counter-box h2 {
+  font-size: 34px;
+  line-height: 140%;
+}
+}

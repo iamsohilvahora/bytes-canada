@@ -1,0 +1,22 @@
+
+.Build-your-brand {
+    max-width: 1410px;
+    padding: 0px 8px;
+    margin: 0px auto;
+}
+.Build-your-brand-bg {
+    background-color: #091d2d;
+    padding: 4.688vw 0px;
+}
+.Build-your-brand h2 {
+    color: #f3f3f3;
+}
+.Build-your-brand h2 span {
+    background: -o-linear-gradient(359.1deg, #8ac5e0 0.28%, #e18d94 102.42%);
+    background: linear-gradient(90.9deg, #8ac5e0 0.28%, #e18d94 102.42%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    font-family: "Aeonik-Bold";
+}

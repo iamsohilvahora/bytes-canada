@@ -1,0 +1,110 @@
+
+.technology-inner-why-choose-top .h3 {
+    color: #ffffff;
+    width: 100%;
+}
+
+.technology-inner-why-choose-bottom {
+    margin-top: 3.75vw;
+}
+
+.technology-inner-why-choose-bottom-boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    gap: 5.052vw;
+}
+
+.technology-inner-why-choose-bottom-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    gap: clamp(12px, 1.250vw, 24px);
+    width: 33.3%;
+    max-width: 24.375vw;
+}
+
+.technology-inner-why-choose-bottom-box .h6 {
+    color: #f3f3f3;
+}
+
+.technology-inner-why-choose-bottom-box p {
+    color: #f3f3f3;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 160%;
+}
+
+@media screen and (min-width: 1921px) {
+    .technology-inner-why-choose-bottom {
+        margin-top: 72px;
+    }
+
+    .technology-inner-why-choose-bottom-boxes {
+        gap: 97px;
+    }
+
+    .technology-inner-why-choose-bottom-box {
+        gap: 24px;
+        max-width: 468px;
+    }
+
+    .technology-inner-why-choose-bottom-box p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .technology-inner-why-choose-top .h3 {
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .technology-inner-why-choose-bottom-boxes {
+        -ms-flex-flow: wrap;
+            flex-flow: wrap;
+    }
+
+    .technology-inner-why-choose-bottom-box {
+        width: 100%;
+        gap: 16px;
+        max-width: calc(50% - 2.525vw);
+    }
+
+    .technology-inner-why-choose-bottom-box p {
+        font-size: 14px;
+    }
+
+    .technology-inner-why-choose-bottom-box .h6 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .technology-inner-why-choose-bottom-boxes {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column;
+                flex-flow: column;
+    }
+
+    .technology-inner-why-choose-bottom-box {
+        max-width: 100%;
+        gap: 8px;
+    }
+
+    .technology-inner-why-choose-bottom-box img{
+        height: 48px;
+        width: 48px;
+    }
+
+    .technology-inner-why-choose-bottom-box .h6 {
+        font-size: 16px;
+    }
+}
