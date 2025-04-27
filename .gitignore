@@ -1,0 +1,46 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/themes/twentytwentythree/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
+!web/app/plugins/advanced-custom-fields-pro/
+!web/app/plugins/wp-rocket/
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+.env.example
+awstats-icon
+awstatsicons
+icon/
+stats/
+web/.htpasswd
+web/robots.txt
+composer.lock
+
+# Composer
+/vendor/
+web/app/themes/bytes-canada/vendor/
+
+# WP-CLI
+wp-cli.local.yml
+
+web/app/themes/.htaccess
+web/app/webp-express/
+web/app/aiowps_backups/
+web/app/cache/*
+web/app/advanced-cache.php
+web/wp-config.php
+web/app/wp-rocket-config/
+web/app/bytes_canada_bkp_24_oct_23.sql
